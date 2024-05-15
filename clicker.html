@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minita's Clicker</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="icon"  type="image/png" href="img/icono.png">
+    <script defer  src="js/data.js"></script>
+    <script defer  src="js/app.js"></script>
+
+</head>
+<body>
+    <img src="img/tutorialclick.png" alt="" id="imgTuto1" class="tuto">
+    <img src="img/tutorialboss.png" alt="" id="imgTuto2" class="tuto">
+    <div class = "mainJuego">
+        
+        <div id="prueba">
+            
+            <div class="contenedor" id ="altoClicker"> <!-- Comienzo ventana clicker  -->
+                <div id="cantidadMinerales">
+                    <img src="img/mineralIcono.png" draggable="false" alt="">
+                    <p id="cant">0</p>
+                    <img src="img/mineralIcono.png" alt="" draggable="false">
+
+
+                </div>
+                <div class="imgMineral">
+                    <div class="desenfoque">
+                        <img src="img/mineral.png" id="imgClicker" alt="" draggable="false">
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "ventanaGacha" id = "gachapon">    
+                <div id="div_gacha">
+                    <div id="fondo">
+                        <h1>Banner Rootie</h1>
+                        <div id="oculto">
+                            
+                        </div>
+                    </div>
+                    <div id="div_botones">
+                        <button id="uno" class="boton_gacha">
+                            x1  (30)
+                        </button>
+                        <button id="diez" class="boton_gacha">
+                            x10  (300)
+                        </button>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="contenedor" id ="tremendoBoss"> <!-- Comienzo ventana boss  -->
+                <div id="topDiv">
+                    <progress id="vidaBoss" max="500" value="500"></progress>
+                    <p id = "potente"></p>
+
+                    
+                </div>
+                <div class="fondoBoss">
+                        
+                        <img src="img/boss.png" id="imgClicker" alt="" draggable="false">
+                        <div id="numero" class="numero">0</div>
+                    
+                </div>
+            </div>
+
+            <div id="personajes">
+                <div id="imgPersonajes">
+                    <div class="marcoPJ oscuro">
+                        <img src="img/1.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/2.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/3.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/4.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/5.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/6.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/7.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/8.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/9.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/10.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    <div class="marcoPJ oscuro">
+                        <img src="img/11.png" alt="" draggable="false">
+                        <div class="info"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id="div_iconos">
+                <div class="iconos " id="botonuno" >
+                        <img src="img/icono1.png" alt="" draggable="false">
+                </div>
+                <div class="iconos" id="botondos">
+                        <img src="img/icono2.png" alt="" draggable="false">
+                </div>
+                <div class="iconos" id ="botontres">
+                        <img src="img/icono3.png" alt="" draggable="false">
+                </div>
+                <div class="iconos" id="botoncuatro">
+                        <img src="img/icono4.png" alt="" draggable="false">
+                </div>
+
+            </div>
+        </div>
+            
+    </div>
+    
+
+</body>
+</html>
